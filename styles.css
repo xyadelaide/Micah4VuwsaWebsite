@@ -77,3 +77,9 @@ body{
     text-align: left;
   }
 } 
+
+footer{
+  background-color: #696969;
+  color: white;
+  padding: 1%;
+}
