@@ -3,13 +3,17 @@
 body{
   margin: 0%;
   font-family: cursive;
-}
+}  
 
-.home{
+.content{
   margin: 1%;
   margin-left: 20%;
   margin-right: 20%;
-}
+  min-height: 80vh;
+  text-align: center;
+} 
+
+
 /* Add a black background color to the top navigation */
 .topnav {
   display: flex;
@@ -18,6 +22,7 @@ body{
   background-color: white;
   overflow: hidden;
   margin: 0%;
+  padding: 1%;
 }
 
 .topnav.responsive{
@@ -34,6 +39,8 @@ body{
   padding: 24px 26px;
   text-decoration: none;
   font-size: 28px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 /* Change the color of links on hover */
@@ -43,10 +50,23 @@ body{
 }
 
 /* Add an active class to highlight the current page */
-.topnav a.active {
+.a.active {
   background-color: white;
   color: #606C38;
   border-radius: 20px;
+}
+
+/* Donate button should have a nice thicc highlight */
+a.donate {
+  display: block;
+  font-size: 150%;
+  margin: auto;
+  width: 17vw;
+  border-radius: 20px;
+  background-color: #283618;
+  color: white;
+  text-align: center; 
+  padding: 1.3%;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -60,6 +80,9 @@ body{
   .topnav a.icon {
     float: right;
     display: block;
+  }
+  a.donate{
+    width: 30vw;
   }
 }
 
