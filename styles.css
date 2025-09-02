@@ -10,6 +10,7 @@ body{
   margin-left: 20%;
   margin-right: 20%;
   min-height: 80vh;
+  margin-top: 14vh;
   text-align: center;
 } 
 
@@ -23,6 +24,9 @@ body{
   overflow: hidden;
   margin: 0%;
   padding: 1%;
+  position: fixed;
+  top:0;
+  width: 100%;
 }
 
 .topnav.responsive{
