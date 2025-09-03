@@ -7,12 +7,36 @@ body{
 
 .content{
   margin: 1%;
-  margin-left: 20%;
-  margin-right: 20%;
+  /* Minimum width for margin */
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+
   min-height: 80vh;
   margin-top: 14vh;
   text-align: center;
 } 
+
+/* Margin media queries */
+ @media only screen and (min-width: 768px) {
+  .content{
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+ } 
+
+ @media only screen and (min-width: 992px) {
+  .content{
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+ } 
+
+  @media only screen and (min-width: 1200px) {
+  .content{
+    margin-left: 20rem;
+    margin-right: 20rem;
+  }
+ } 
 
 
 /* Add a black background color to the top navigation */
