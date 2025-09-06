@@ -56,6 +56,7 @@ body{
 .topnav.responsive{
   display: block;
   flex-direction: column;
+  padding: 0%;
 }
 
 /* Style the links inside the navigation bar */
