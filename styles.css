@@ -20,8 +20,12 @@ img{
   text-align: center;
 } 
 
-/* Margin media queries */
- @media only screen and (min-width: 768px) {
+/* Responsive stuff */
+ .topnav a{
+  font-size: 28px;
+  padding: 24px 26px;
+}
+ @media only screen and (min-width: 720px) {
   .content{
     margin-left: 10rem;
     margin-right: 10rem;
@@ -31,6 +35,10 @@ img{
   }
   a.button{
     font-size: 110%;
+  }
+  .topnav a{
+    font-size: 22px;
+    padding: 14px 20px;
   }
  } 
 
@@ -45,6 +53,10 @@ img{
   a.button{
     font-size: 120%;
   }
+  .topnav a{
+    font-size: 24px;
+    padding: 14px 24px;
+  }
  } 
 
   @media only screen and (min-width: 1300px) {
@@ -58,8 +70,18 @@ img{
   a.button{
       font-size: 150%;
   }
- } 
+  .topnav a{
+    font-size: 26px;
+    padding: 24px 26px;
+  }
+ }
 
+@media only screen and (min-width: 1400px) {
+ .topnav a{
+  font-size: 28px;
+  padding: 24px 26px;
+}
+  }
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -89,9 +111,7 @@ img{
   /* display: block; */
   color: white;
   text-align: center;
-  padding: 24px 26px;
   text-decoration: none;
-  font-size: 28px;
   margin-top: auto;
   margin-bottom: auto;
 }
