@@ -1,9 +1,13 @@
-/* https://www.w3schools.com/howto/howto_js_curtain_menu.asp ?*/
 
 body{
   margin: 0%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }  
+
+img{
+  margin: 2%;
+  width: 99%;
+}
 
 .content{
   margin: 1%;
@@ -22,6 +26,9 @@ body{
     margin-left: 10rem;
     margin-right: 10rem;
   }
+  img{
+    width: 95%;
+  }
  } 
 
  @media only screen and (min-width: 992px) {
@@ -29,12 +36,18 @@ body{
     margin-left: 15rem;
     margin-right: 15rem;
   }
+  img{
+    width: 90%;
+  }
  } 
 
-  @media only screen and (min-width: 1200px) {
+  @media only screen and (min-width: 1300px) {
   .content{
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+  }
+  img {
+    width: 85%;
   }
  } 
 
@@ -87,8 +100,8 @@ body{
   border-radius: 20px;
 }
 
-/* Donate button should have a nice thicc highlight */
-a.donate {
+/* Button should have a nice thicc highlight */
+a.button {
   display: block;
   font-size: 150%;
   margin: auto;
@@ -105,14 +118,14 @@ a.donate {
   display: none;
 } 
 
- /* When the screen is less than 725 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 725px) {
+ /* When the screen is less than 750 pixels wide, hide all links, except for the title. Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 750px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
   }
-  a.donate{
+  a.button{
     width: 30vw;
   }
 }
