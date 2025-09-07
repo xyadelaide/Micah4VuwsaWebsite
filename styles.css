@@ -29,6 +29,9 @@ img{
   img{
     width: 95%;
   }
+  a.button{
+    font-size: 110%;
+  }
  } 
 
  @media only screen and (min-width: 992px) {
@@ -39,6 +42,9 @@ img{
   img{
     width: 90%;
   }
+  a.button{
+    font-size: 120%;
+  }
  } 
 
   @media only screen and (min-width: 1300px) {
@@ -47,7 +53,10 @@ img{
     margin-right: 25rem;
   }
   img {
-    width: 85%;
+    width: 80%;
+  }
+  a.button{
+      font-size: 150%;
   }
  } 
 
@@ -78,7 +87,7 @@ img{
 .topnav a {
   /* float: left; */
   /* display: block; */
-  color: #606C38;
+  color: #DB3F3A;
   text-align: center;
   padding: 24px 26px;
   text-decoration: none;
@@ -103,11 +112,10 @@ img{
 /* Button should have a nice thicc highlight */
 a.button {
   display: block;
-  font-size: 150%;
   margin: auto;
   width: 17vw;
   border-radius: 20px;
-  background-color: #283618;
+  background-color: #DB3F3A;
   color: white;
   text-align: center; 
   padding: 1.3%;
